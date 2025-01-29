@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: #2d4733;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+    margin-bottom: 1rem;
+   
+}
+
+body{
+    
+    background-size: cover;
+    background-color: #ffe49a65;
+}
+
+/* Demographic Section */
+#demographic {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 100%;
+    margin-top: 2rem;
+    
+}
+
+/* Grades Section */
+.grades {
+
+    padding-top: 2rem;
+    border-top: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 1rem 2rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+}
+
+.grades div {
+    margin-bottom: 1rem;
+}
+
+.grades label {
+    margin-right: 0.5rem;
+}
+
+/* General Input Styling */
+input {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* GWA Section */
+#GWA {
+    margin: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#TOTALGWA {
+    margin-left: 1rem;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-left: 1rem;
+    padding: 0.5em 1em;
+    background-color: #2d4733;;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* table Styling */
+
+#section{
+width: 20rem;
+}
+
+#name{
+    width: 20rem;
+    }
+
+#age{
+    width: 20rem;
+        }
+
+#course{
+    width: 20rem;
+            }
+
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 0.75em;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2d4733;
+    color: #ffffff;
+    font-size: larger;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
