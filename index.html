@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online School Grading System</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<header>
+    <h1>VIN INSTITUTE OF NENOLOGY</h1>
+</header>
+<body>
+    <!-- Input Group -->
+    <div class="group">
+        <div id="demographic">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter name" required>
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" placeholder="Enter age" required>
+            </div>
+            <div>
+                <label for="course">Course:</label>
+                <input type="text" name="course" id="course" placeholder="Enter course" required>
+            </div>
+            <div>
+                <label for="section">Section:</label>
+                <input type="text" name="section" id="section" placeholder="Enter section" required>
+            </div>
+        </div>
+        <br>
+        <div class="grades">
+            <div id="First">
+                <label for="Grade1">Grade 1:</label>
+                <input type="number" name="Grade1" id="Grade1" placeholder="Enter grade" required>
+                <label for="unit1">Units:</label>
+                <input type="number" name="unit1" id="units1" placeholder="Enter units" required>
+                <br>
+            </div>
+            <div id="Second">
+                <label for="Grade2">Grade 2:</label>
+                <input type="number" name="Grade2" id="Grade2" placeholder="Enter grade" required>
+                <label for="unit2">Units:</label>
+                <input type="number" name="unit2" id="units2" placeholder="Enter units" required>
+                <br>
+            </div>
+            <div id="Third">
+                <label for="Grade3">Grade 3:</label>
+                <input type="number" name="Grade3" id="Grade3" placeholder="Enter grade" required>
+                <label for="unit3">Units:</label>
+                <input type="number" name="unit3" id="units3" placeholder="Enter units" required>
+                <br>
+            </div>
+            <div id="Fourth">
+                <label for="Grade4">Grade 4:</label>
+                <input type="number" name="Grade4" id="Grade4" placeholder="Enter grade" required>
+                <label for="unit4">Units:</label>
+                <input type="number" name="unit4" id="units4" placeholder="Enter units" required>
+                <br>
+            </div>
+            <div id="Fifth">
+                <label for="Grade5">Grade 5:</label>
+                <input type="number" name="Grade5" id="Grade5" placeholder="Enter grade" required>
+                <label for="unit5">Units:</label>
+                <input type="number" name="unit5" id="units5" placeholder="Enter units" required>
+                <br>
+            </div> 
+        </div>
+        <div id="GWA">
+            <label for="TOTALGWA">GWA:</label>
+            <input type="number" name="TOTALGWA" id="TOTALGWA" readonly>
+            <button id="GWA" onclick="GetGWA()">Get GWA</button>
+            <button id="add" onclick="AddTransaction()">Save</button>
+        </div>
+    </div>
+
+    <!-- Output Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Section</th>
+                <th>GWA</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="transaction-list">
+        </tbody>
+    </table>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
